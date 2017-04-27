@@ -36,7 +36,8 @@ git reset head
 git reset -- filename
 git reset head filename
 
-
+# 重置暂存区和缓冲区，和上次提交一致
+git rest --hard
 
 # 切换到指定分支，并更新工作区
 $ git checkout [branch-name]

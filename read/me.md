@@ -110,9 +110,8 @@ $ git branch -dr [remote/branch]
 # 切换到指定分支，并更新工作区
 $ git checkout [branch-name]
 
-# 在当前版本，创建远程分支，更新
+# 在当前版本，创建远程分支(没有)，更新（存在）
 $ git pull origin branch_name
-
 
 
 

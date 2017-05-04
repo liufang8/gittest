@@ -1,4 +1,4 @@
-文件夹状态： 
+文件夹状态：
 	绿色对号： 已提交
 	红色感叹号： 已经添加未提交
 	红色加号： 为已添加
@@ -14,19 +14,19 @@ $ git init [project-name]
 $ git clone [url]
 
 
-**add** 
+**add**
 
 # 添加当前文件夹
 git add .  	
 
 # 添加某个文件
-git add <file> <file> 
+git add <file> <file>
 
 # 添加某个文件
-git add <dir> 
+git add <dir>
 
 # 删除文件
-git rm <file> 
+git rm <file>
 
 # 改名文件
 git mv file-origin file-renamed  
@@ -37,7 +37,7 @@ git checkout <file> //unstage to work dir
 
 **reset**
 # stage to unstage
-git reset head <file> 
+git reset head <file>
 
 # 对工作区没有影响，撤销add增加到暂存区的内容
 git reset
@@ -54,7 +54,7 @@ git rest --hard
 **commit**
 
 # work dir to repository
-git commit -a 
+git commit -a
 
 # see diff info
 git commit <file> -v
@@ -100,15 +100,12 @@ $ git merge [branch]
 # 选择一个commit，合并进当前分支
 $ git cherry-pick [commit]
 
-# 删除分支
+# 删除本地分支
 $ git branch -d [branch-name]
 
 # 删除远程分支
 $ git push origin --delete [branch-name]
 $ git branch -dr [remote/branch]
-
-# 切换到指定分支，并更新工作区
-$ git checkout [branch-name]
 
 # 在当前版本，创建远程分支(没有)，更新（存在）
 $ git pull origin branch_name
@@ -120,6 +117,3 @@ git config --global core.autocrlf false
 
 windows下git add 时提示`warning: LF will be replaced by CRLF`
 解决办法：git config --global core.autocrlf false
-
-
-aaaaa
